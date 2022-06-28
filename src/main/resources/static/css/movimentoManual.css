@@ -1,0 +1,25 @@
+#button{
+    margin-top: 1%;
+    margin-left:37.6%;
+}
+
+#divForm{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#divDataTable{
+    margin-top: 2.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#wraper {
+     overflow: hidden;
+     min-height: 100%;
+}
+
+.break {
+  flex-basis: 50%;
+  height: 0;
+}
