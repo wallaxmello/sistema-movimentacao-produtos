@@ -1,7 +1,11 @@
-package br.com.springboot.sistema-movimentacao-produtos.services;
+package br.com.springboot.sistema.movimentacao.produtos.services
+
+-movimentacao-produtos.services;
 
 import br.com.springboot.sistema-movimentacao-produtos.models.Produto;
 import br.com.springboot.sistema-movimentacao-produtos.repositories.ProdutoRepository;
+import br.com.springboot.sistema.movimentacao.produtos.models.Produto;
+import br.com.springboot.sistema.movimentacao.produtos.repositories.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

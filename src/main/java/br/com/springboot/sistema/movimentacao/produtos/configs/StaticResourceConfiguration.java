@@ -1,4 +1,6 @@
-package br.com.springboot.sistema-movimentacao-produtos.configs;
+package br.com.springboot.sistema.movimentacao.produtos.configs
+
+-movimentacao-produtos.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
