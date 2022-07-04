@@ -1,5 +1,5 @@
 
-package br.com.springboot.desafio_bnp_atlia.security;
+package br.com.springboot.sistema-movimentacao-produtos.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

@@ -1,7 +1,7 @@
-package br.com.springboot.desafio_bnp_atlia.services;
+package br.com.springboot.sistema-movimentacao-produtos.services;
 
-import br.com.springboot.desafio_bnp_atlia.models.Produto;
-import br.com.springboot.desafio_bnp_atlia.repositories.ProdutoRepository;
+import br.com.springboot.sistema-movimentacao-produtos.models.Produto;
+import br.com.springboot.sistema-movimentacao-produtos.repositories.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

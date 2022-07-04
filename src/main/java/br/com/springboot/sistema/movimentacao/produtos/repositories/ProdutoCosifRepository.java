@@ -1,6 +1,6 @@
-package br.com.springboot.desafio_bnp_atlia.repositories;
+package br.com.springboot.sistema-movimentacao-produtos.repositories;
 
-import br.com.springboot.desafio_bnp_atlia.models.ProdutoCosif;
+import br.com.springboot.sistema-movimentacao-produtos.models.ProdutoCosif;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

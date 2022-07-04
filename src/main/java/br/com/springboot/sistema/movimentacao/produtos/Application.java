@@ -1,4 +1,4 @@
-package br.com.springboot.desafio_bnp_atlia;
+package br.com.springboot.sistema-movimentacao-produtos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

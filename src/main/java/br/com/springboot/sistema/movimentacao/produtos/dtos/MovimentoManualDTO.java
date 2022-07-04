@@ -1,4 +1,4 @@
-package br.com.springboot.desafio_bnp_atlia.dtos;
+package br.com.springboot.sistema-movimentacao-produtos.dtos;
 
 public class MovimentoManualDTO {
 

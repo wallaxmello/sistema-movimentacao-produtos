@@ -1,4 +1,4 @@
-package br.com.springboot.desafio_bnp_atlia.models;
+package br.com.springboot.sistema-movimentacao-produtos.models;
 
 import javax.persistence.*;
 import java.io.Serializable;

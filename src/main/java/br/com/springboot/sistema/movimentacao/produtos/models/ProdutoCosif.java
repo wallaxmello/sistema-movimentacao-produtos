@@ -1,19 +1,21 @@
-package br.com.springboot.desafio_bnp_atlia.models;
+package br.com.springboot.sistema-movimentacao-produtos.models;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "produto")
-public class Produto implements Serializable {
+@Table(name = "produto_cosif")
+public class ProdutoCosif implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@Column(name="cod_cosif", length = 11)
+	private String codigoCosif;
 	@Column(name="cod_produto", length = 4)
 	private String codigoProduto;
-	@Column(name="des_produto", length = 30)
-	private String descricaoProduto;
+	@Column(name="cod_classificacao", length = 6)
+	private String codigoClassificacao;
 	@Column(name="sta_status", length = 1)
 	private Character situacaoStatus;
 
@@ -25,6 +27,14 @@ public class Produto implements Serializable {
 		this.id = id;
 	}
 
+	public String getCodigoCosif() {
+		return codigoCosif;
+	}
+
+	public void setCodigoCosif(String codigoCosif) {
+		this.codigoCosif = codigoCosif;
+	}
+
 	public String getCodigoProduto() {
 		return codigoProduto;
 	}
@@ -33,12 +43,12 @@ public class Produto implements Serializable {
 		this.codigoProduto = codigoProduto;
 	}
 
-	public String getDescricaoProduto() {
-		return descricaoProduto;
+	public String getCodigoClassificacao() {
+		return codigoClassificacao;
 	}
 
-	public void setDescricaoProduto(String descricaoProduto) {
-		this.descricaoProduto = descricaoProduto;
+	public void setCodigoClassificacao(String codigoClassificacao) {
+		this.codigoClassificacao = codigoClassificacao;
 	}
 
 	public Character getSituacaoStatus() {

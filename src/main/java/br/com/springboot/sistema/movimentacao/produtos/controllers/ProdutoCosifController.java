@@ -1,7 +1,7 @@
-package br.com.springboot.desafio_bnp_atlia.controllers;
+package br.com.springboot.sistema-movimentacao-produtos.controllers;
 
-import br.com.springboot.desafio_bnp_atlia.models.ProdutoCosif;
-import br.com.springboot.desafio_bnp_atlia.services.ProdutoCosifService;
+import br.com.springboot.sistema-movimentacao-produtos.models.ProdutoCosif;
+import br.com.springboot.sistema-movimentacao-produtos.services.ProdutoCosifService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

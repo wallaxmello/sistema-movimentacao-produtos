@@ -1,4 +1,4 @@
-package br.com.springboot.desafio_bnp_atlia.configs;
+package br.com.springboot.sistema-movimentacao-produtos.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

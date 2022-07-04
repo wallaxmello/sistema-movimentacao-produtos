@@ -1,9 +1,9 @@
-package br.com.springboot.desafio_bnp_atlia.controllers;
+package br.com.springboot.sistema-movimentacao-produtos.controllers;
 
-import br.com.springboot.desafio_bnp_atlia.models.MovimentoManual;
-import br.com.springboot.desafio_bnp_atlia.dtos.MovimentoManualDTO;
-import br.com.springboot.desafio_bnp_atlia.services.MovimentoManualService;
-import br.com.springboot.desafio_bnp_atlia.services.ProdutoService;
+import br.com.springboot.sistema-movimentacao-produtos.models.MovimentoManual;
+import br.com.springboot.sistema-movimentacao-produtos.dtos.MovimentoManualDTO;
+import br.com.springboot.sistema-movimentacao-produtos.services.MovimentoManualService;
+import br.com.springboot.sistema-movimentacao-produtos.services.ProdutoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

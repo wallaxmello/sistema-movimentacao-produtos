@@ -1,4 +1,4 @@
-package br.com.springboot.desafio_bnp_atlia.requests;
+package br.com.springboot.sistema-movimentacao-produtos.requests;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
