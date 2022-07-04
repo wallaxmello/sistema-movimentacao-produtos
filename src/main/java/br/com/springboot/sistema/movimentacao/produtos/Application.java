@@ -1,6 +1,4 @@
-package br.com.springboot.sistema.movimentacao.produtos
-
--movimentacao-produtos;
+package br.com.springboot.sistema.movimentacao.produtos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

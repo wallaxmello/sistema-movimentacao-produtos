@@ -1,9 +1,7 @@
-package br.com.springboot.sistema.movimentacao.produtos.controllers
+package br.com.springboot.sistema.movimentacao.produtos.controllers;
 
--movimentacao-produtos.controllers;
-
-import br.com.springboot.sistema-movimentacao-produtos.models.Produto;
-import br.com.springboot.sistema-movimentacao-produtos.services.ProdutoService;
+import br.com.springboot.sistema.movimentacao.produtos.models.Produto;
+import br.com.springboot.sistema.movimentacao.produtos.services.ProdutoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

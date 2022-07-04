@@ -1,6 +1,4 @@
-package br.com.springboot.sistema.movimentacao.produtos.controllers
-
--movimentacao-produtos.controllers;
+package br.com.springboot.sistema.movimentacao.produtos.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

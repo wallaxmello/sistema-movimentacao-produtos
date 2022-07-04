@@ -1,6 +1,4 @@
-package br.com.springboot.sistema.movimentacao.produtos.models
-
--movimentacao-produtos.models;
+package br.com.springboot.sistema.movimentacao.produtos.models;
 
 import javax.persistence.*;
 import java.io.Serializable;

@@ -1,7 +1,4 @@
-
-package br.com.springboot.sistema.movimentacao.produtos.security
-
--movimentacao-produtos.security;
+package br.com.springboot.sistema.movimentacao.produtos.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

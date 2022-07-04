@@ -1,4 +1,4 @@
-package br.com.springboot.sistema.movimentacao.produtos.dtos-movimentacao-produtos.dtos;
+package br.com.springboot.sistema.movimentacao.produtos.dtos;
 
 public class MovimentoManualDTO {
 

@@ -1,11 +1,9 @@
-package br.com.springboot.sistema.movimentacao.produtos.controllers
+package br.com.springboot.sistema.movimentacao.produtos.controllers;
 
--movimentacao-produtos.controllers;
-
-import br.com.springboot.sistema-movimentacao-produtos.models.MovimentoManual;
-import br.com.springboot.sistema-movimentacao-produtos.dtos.MovimentoManualDTO;
-import br.com.springboot.sistema-movimentacao-produtos.services.MovimentoManualService;
-import br.com.springboot.sistema-movimentacao-produtos.services.ProdutoService;
+import br.com.springboot.sistema.movimentacao.produtos.models.MovimentoManual;
+import br.com.springboot.sistema.movimentacao.produtos.dtos.MovimentoManualDTO;
+import br.com.springboot.sistema.movimentacao.produtos.services.MovimentoManualService;
+import br.com.springboot.sistema.movimentacao.produtos.services.ProdutoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
